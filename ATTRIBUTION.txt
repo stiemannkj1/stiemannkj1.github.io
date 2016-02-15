@@ -1,0 +1,5 @@
+The Pixyll project used in this blog is subject to the license terms found in the pixyll-LICENSE.txt file.
+---
+Icons and images in this directory were generated from the Roboto Mono font and are subject to the license terms found in roboto-mono-LICENSE.txt
+---
+Works under the _posts/ directory are subject to the license terms found in _posts/LICENSE.txt.
