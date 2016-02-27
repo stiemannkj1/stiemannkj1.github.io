@@ -1,7 +1,26 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      <a id="site_title" href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      <script>
+        var A_STIEMANN_PILE_THEME = window.location.href.toLowerCase().indexOf('astiemannpile') !== -1;
+
+        if (A_STIEMANN_PILE_THEME) {
+
+          // Make the background black and the text light green.
+          var styleElement = document.createElement('style');
+          styleElement.innerHTML = 'body,footer { background-color: black; } body * { color: lightgreen !important; }';
+          document.getElementsByTagName('head')[0].appendChild(styleElement);
+
+          // Change the title to "A Stiemann Pile" and add the subtitle.
+          var siteTitle = document.getElementById('site_title');
+          siteTitle.innerHTML = 'A Stiemann Pile';
+          var siteSubtitleElement = document.createElement('span');
+          siteSubtitleElement.innerHTML = 'Where Kyle Takes (Brain) Dumps';
+          siteSubtitleElement.style = 'margin-left: 10px; line-height: 2em;';
+          siteTitle.parentNode.insertBefore(siteSubtitleElement, siteTitle.nextSibling);
+        }
+      </script>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>

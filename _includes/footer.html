@@ -4,4 +4,34 @@
       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a href="{{ site.url }}" class="site-title">{{ site.title }}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     </small>
   </div>
+      <script>
+        // A_STIEMANN_PILE_THEME is defined in _includes/header.html as
+        // var A_STIEMANN_PILE_THEME = window.location.href.toLowerCase().indexOf('astiemannpile') !== -1;
+        if (A_STIEMANN_PILE_THEME) {
+
+          // Add 'aStiemannPile' to all relative links.
+          var anchors = document.getElementsByTagName('a');
+
+          for (var i = 0; i < anchors.length; i++) {
+
+			var href = anchors[i].getAttribute('href');
+
+            if (href) {
+
+              // If the link is relative, then
+              if (!/^(?:[a-z]+:)?\/\//i.test(href) ||
+                  href === '{{ site.url }}') {
+
+                if (anchors[i].href.indexOf('?') === -1) {
+                  anchors[i].href = anchors[i].href + '?';
+                } else {
+                  anchors[i].href = anchors[i].href + '&';
+                }
+
+                anchors[i].href = anchors[i].href + 'aStiemannPile';
+              }
+            }
+          }
+        }
+      </script>
 </footer>
