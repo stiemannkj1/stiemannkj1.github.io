@@ -41,8 +41,8 @@ Amendment only protects people from the government.
 
 Trump's rights or the rights of some of his supporters may have been violated
 in Chicago, but it was not their First Amendment rights which were violated
-because the government did not attempt to restrict or censor his speech. This
-situation is reminiscent of [the Phil Robertson
+because the government did not attempt to restrict or censor his speech or his
+rally. This situation is reminiscent of [the Phil Robertson
 controversy](http://www.ew.com/article/2014/05/23/duck-dynasty-phil-robertson-antigay-sermon-video)
 where A&E censored Robertson because of his views on homosexuality. [Many
 conservatives complained that Robertson's First Amendment right to free speech
