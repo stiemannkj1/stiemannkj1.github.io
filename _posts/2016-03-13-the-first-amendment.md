@@ -55,3 +55,5 @@ peaceable public assembly without violating the First Amendment. Finally, even
 if the situation turns violent between the two groups, as it did in Chicago, no
 one's First Amendment rights have been violated unless the **government**
 restricts those rights.
+
+## [Comments](https://github.com/stiemannkj1/stiemannkj1.github.io/issues/4)
