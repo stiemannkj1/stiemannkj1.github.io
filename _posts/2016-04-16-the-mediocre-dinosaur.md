@@ -94,3 +94,5 @@ spite of the quality narrative, colorful characters, and good moral, *The Good
 Dinosaur* is plagued by the strange dinosaur western style, elongated and
 pointless scenes, and plenty of minor issues. *The Mediocre Dinosaur* would
 have been a more honest title.
+
+## [Comments](https://github.com/stiemannkj1/stiemannkj1.github.io/issues/5)
