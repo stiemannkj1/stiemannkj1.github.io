@@ -3,35 +3,36 @@ layout: post
 title: The Mediocre Dinosaur (Spoilers!)
 permalink: /the-mediocre-dinosaur/
 tags: the-good-dinosaur movie review critique
+excerpt_separator: <!--end-excerpt-->
 ---
 
 *The Good Dinosaur* is a western-style film set in the prehistoric era. The film
 opens with an introduction to a family of long-necked Apatosauruses. The titular
 main character is Arlo, the easily-frightened runt of the family. Lovingly,
-Arlo's father attempts to toughen Arlo up and tasks him with  stopping whatever
+Arlo's father attempts to toughen Arlo up and tasks him with stopping whatever
 is stealing the family's corn. Arlo successfully catches the human boy who is
 taking the corn, but he cannot bring himself to kill the cave-boy. Instead, Arlo
 releases the child. Berating Arlo for freeing the boy, Arlo's father takes Arlo
-and sets out to recapture the child. Unfortunately, a flash flood occurs and the
-raging waters drown Arlo's father. Grief-stricken, Arlo returns home. Many days
-later, he notices that the same boy is stealing his family's corn again. He
-chases the boy into the wilderness and gets lost. After Arlo struggles on his
-own for a day, the boy begins to help him, and Arlo names the child "Spot." As
-Arlo looks for a way home, a trio of pterodactyls attack him and Spot. Fleeing
-the pterodactyls, Arlo and Spot run into friendly T. rex ranchers who chase away
-the winged villains. Then, the T. rexes ask Arlo to help them recapture their
-stolen cattle. Fighting his cowardly nature, Arlo aids the T. rexes. Together,
-they chase off the cattle-rustling raptors and recapture the cattle. After a
-night's rest, the T. rexes point Arlo towards home. Suddenly, Arlo and Spot are
-once more assaulted by the pterodactyls. A newly emboldened Arlo faces his fears
-and fights off the attackers. Finally, Arlo unites Spot with another human
-family and returns home.
+and sets out to recapture the child. Unfortunately, a flash flood occurs, and
+the raging waters drown Arlo's father. <!--end-excerpt--> Grief-stricken, Arlo
+returns home. Many days later, he notices that the same boy is stealing his
+family's corn again. He chases the boy into the wilderness and gets lost. After
+Arlo struggles on his own for a day, the boy begins to help him, and Arlo names
+the child "Spot." As Arlo looks for a way home, a trio of pterodactyls attack
+him and Spot. Fleeing the pterodactyls, Arlo and Spot run into friendly T. rex
+ranchers who chase away the winged villains. Then, the T. rexes ask Arlo to help
+them recapture their stolen cattle. Fighting his cowardly nature, Arlo aids the
+T. rexes. Together, they chase off the cattle-rustling raptors and recapture the
+cattle. After a night's rest, the T. rexes point Arlo towards home. Suddenly,
+Arlo and Spot are once more assaulted by the pterodactyls. A newly emboldened
+Arlo faces his fears and fights off the attackers. Finally, Arlo unites Spot
+with another human family and returns home.
 
 By demonstrating Arlo's confrontations with his own fears, *The Good Dinosaur*
 challenges viewers to confront their fears. Arlo learns this moral slowly and
 relatably throughout the film. In the beginning, he is cowardly and can barely
 do simple (and not-so-scary) tasks like rounding up chickens. But he is forced
-to face frightening situations when he is lost and on his own. Eventually, he 
+to face frightening situations when he is lost and on his own. Eventually, he
 helps the T. rexes recapture their cattle from the rustlers and protects Spot
 from pterodactlys. The film even contrasts the right understanding of the moral
 with the almost-right belief that one should never be afraid at all. Butch, the
