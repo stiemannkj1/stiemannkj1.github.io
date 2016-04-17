@@ -5,15 +5,17 @@ permalink: /marios-size-and-shape/
 tags: mario design videogame
 ---
 
-The Super Mario series is amazing---[every game is a
-best-seller](http://www.nintendo.co.jp/ir/en/sales/software/wii.html) and a
-classic. Each entry, even the original *Super Mario Bros.*, is still fun today.
-Much of Mario's timelessness can be attributed to good design, especially the
-design of Mario himself.
+The Super Mario series is amazing---<a
+href="http://www.nintendo.co.jp/ir/en/sales/software/wii.html"
+target="_blank">every game is a best-seller</a> and a classic. Each entry, even
+the original *Super Mario Bros.*, is still fun today. Much of Mario's
+timelessness can be attributed to good design, especially the design of Mario
+himself.
 
 Here's Mario's normal sprite:
 
-<img alt="Small Mario" src="/images/marios-size-and-shape/small-mario.gif" width="65" />
+<img alt="Small Mario" src="/images/marios-size-and-shape/small-mario.gif"
+width="65" />
 
 Mario's shape is simple. He has sharp edges. He's almost a square (13 by 16
 pixels). Because of his square-like stature, it's easy to tell where he is and
@@ -26,7 +28,8 @@ simplicity of Mario's size and shape make the game feel fair.
 When Mario grabs a mushroom, he turns into Super Mario and his sprite changes
 size:
 
-<img alt="Super Mario" src="/images/marios-size-and-shape/super-mario.gif" width="65" />
+<img alt="Super Mario" src="/images/marios-size-and-shape/super-mario.gif"
+width="65" />
 
 Unlike normal Mario, when Super Mario gets hit, he does not die. Instead, he
 reverts back to Mario's normal size. Super Mario's designers indicated that
@@ -55,4 +58,5 @@ years.
 <sub><sup>Mario's sprites are copyrighted by Nintendo and published here under
 fair use for educational purposes.</sup></sub>
 
-## [Comments](https://github.com/stiemannkj1/stiemannkj1.github.io/issues/3)
+## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/3" target="_blank">Comments</a>
+
