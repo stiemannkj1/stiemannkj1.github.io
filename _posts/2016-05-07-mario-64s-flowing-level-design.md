@@ -5,7 +5,8 @@ permalink: /mario-64s-flowing-level-design/
 tags: mario-64 mario design game-design video-game
 ---
 
-Mario 64 is one of the earliest 3D platformers. Since the game utilizes the
+<a href="https://en.wikipedia.org/wiki/Super_Mario_64" target="_blank">Super
+Mario 64</a> is one of the earliest 3D platformers. Since the game utilizes the
 third dimension, the levels are designed to be less linear than Mario's 2D
 entries. Many of the larger levels have multiple goals such as winning a race,
 getting all the red coins, or defeating a boss. The game rewards the player with
