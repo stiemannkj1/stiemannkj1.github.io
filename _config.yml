@@ -98,6 +98,8 @@ text:
 
 # Build settings
 markdown:     kramdown
+kramdown:
+  input: GFM
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
