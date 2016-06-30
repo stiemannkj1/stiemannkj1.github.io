@@ -55,7 +55,7 @@ brilliant game design, but that kind of thoughtful, intentional design has made
 the Super Mario series a bestselling series and kept Mario relevant for 30
 years.
 
-<sub><sup>Mario's sprites are copyrighted by Nintendo and published here under
+<sub><sup>Mario's sprites are copyright Nintendo and are published here under
 fair use for educational purposes.</sup></sub>
 
 ## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/3" target="_blank">Comments</a>

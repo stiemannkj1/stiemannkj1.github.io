@@ -83,5 +83,8 @@ found many errors in my own code (including the bugs that inspired this post).
 Stepping through your code in a debugger is an excellent way to reduce obscure
 bugs in your software.
 
+<sub><sup>*Code Complete* is copyright Steve McConnell, and the text from it is
+published here under fair use for educational purposes.</sup></sub>
+
 ## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/7" target="_blank">Comments</a>
 
