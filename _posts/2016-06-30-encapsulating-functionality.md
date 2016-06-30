@@ -26,8 +26,8 @@ Fundamentally, functions are designed to encapsulate related functionality.
 Because the functionality and information are abstracted away in a function, the
 programmer can avoid thinking about those lower-level details when they are
 reasoning about the calling code. If the function is well designed, coders can
-also more easily modify it because they will not need to think about the outside
-world when doing so.
+also modify it more easily because they will not need to think about any
+external code when doing so.
 
 Here is an oversimplified example of a function with poor encapsulation:
 
