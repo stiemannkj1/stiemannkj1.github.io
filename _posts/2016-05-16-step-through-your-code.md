@@ -4,6 +4,7 @@ title: Step Through Your Code
 permalink: /step-through-your-code/
 tags: programming coding debugging
 excerpt_separator: <!--end-excerpt-->
+comments_issue_number: 7
 ---
 
 <!--end-excerpt-->
@@ -85,6 +86,4 @@ bugs in your software.
 
 <sub><sup>*Code Complete* is copyright Steve McConnell, and the text from it is
 published here under fair use for educational purposes.</sup></sub>
-
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/7" target="_blank">Comments</a>
 

@@ -4,6 +4,7 @@ title: The Mediocre Dinosaur (Spoilers!)
 permalink: /the-mediocre-dinosaur/
 tags: the-good-dinosaur movie review critique
 excerpt_separator: <!--end-excerpt-->
+comments_issue_number: 5
 ---
 
 *The Good Dinosaur* is a western-style film set in the prehistoric era. The film
@@ -96,6 +97,4 @@ quality narrative, colorful characters, and good moral, *The Good Dinosaur* is
 plagued by the strange dinosaur western style, elongated and pointless scenes,
 and plenty of minor issues. *The Mediocre Dinosaur* would have been a more
 honest title.
-
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/5" target="_blank">Comments</a>
 

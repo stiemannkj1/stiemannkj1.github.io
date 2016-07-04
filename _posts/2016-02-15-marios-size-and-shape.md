@@ -3,6 +3,7 @@ layout: post
 title: The Brilliance of Mario's Size and Shape
 permalink: /marios-size-and-shape/
 tags: mario design videogame
+comments_issue_number: 3
 ---
 
 The Super Mario series is amazing---<a
@@ -57,6 +58,4 @@ years.
 
 <sub><sup>Mario's sprites are copyright Nintendo and are published here under
 fair use for educational purposes.</sup></sub>
-
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/3" target="_blank">Comments</a>
 

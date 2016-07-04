@@ -3,6 +3,7 @@ layout: post
 title: Mario 64's Flowing Level Design
 permalink: /mario-64s-flowing-level-design/
 tags: mario-64 mario design game-design video-game
+comments_issue_number: 6
 ---
 
 <a href="https://en.wikipedia.org/wiki/Super_Mario_64" target="_blank">Super
@@ -95,6 +96,4 @@ thinking about what they see. However, the design also limits the player's
 options and helps them avoid getting too off course. The design attempts to keep
 the player in a <a href="https://www.youtube.com/watch?v=zFv6KAdQ5SE#t=1m9s"
 target="_blank">flow state</a>, and---for me at least---it succeeded.
-
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/6" target="_blank">Comments</a>
 

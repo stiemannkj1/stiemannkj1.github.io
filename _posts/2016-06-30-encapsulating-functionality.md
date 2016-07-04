@@ -3,6 +3,7 @@ layout: post
 title: Encapsulating Functionality
 permalink: /encapsulating-functionality/
 tags: programming coding encapsulation abstraction functions information-hiding
+comments_issue_number: 8
 ---
 
 Computer science authors and professors often discuss the concepts of <a
@@ -75,4 +76,3 @@ For further reading on constructing excellent functions, check out Chapter 7 of
 <a target="_blank" href="http://cc2e.com/">Steve McConnell's excellent book,
 *Code Complete*</a>---"High-Quality Routines" (pp. 161-186).
 
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/8" target="_blank">Comments</a>

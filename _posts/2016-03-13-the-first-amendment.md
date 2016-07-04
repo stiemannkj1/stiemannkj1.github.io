@@ -3,6 +3,7 @@ layout: post
 title: The First Amendment
 permalink: /the-first-amendment/
 tags: first-amendment trump constitution
+comments_issue_number: 4
 ---
 
 <a
@@ -58,6 +59,4 @@ may peaceably protest another peaceable public assembly without violating the
 First Amendment. Finally, even if the situation turns violent between the two
 groups, as it did in Chicago, no one's First Amendment rights have been violated
 unless the **government** restricts those rights.
-
-## <a href="https://github.com/stiemannkj1/stiemannkj1.github.io/issues/4" target="_blank">Comments</a>
 
