@@ -2,7 +2,7 @@
 layout: post
 title: Step Through Your Code
 permalink: /step-through-your-code/
-tags: programming coding debugging
+tags: [programming, coding, debugging]
 excerpt_separator: <!--end-excerpt-->
 comments_issue_number: 7
 ---

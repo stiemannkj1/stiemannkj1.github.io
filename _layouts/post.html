@@ -60,14 +60,66 @@ layout: default
   </h2>
 {% endif %}
 
-{% if site.show_related_posts %}
-  <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
-  {% for post in site.related_posts %}
-    <div class="post ml2">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-        <h4 class="post-title">{{ post.title }}</h4>
-        <p class="post-summary">{{ post.summary }}</p>
-      </a>
-    </div>
+{% if page.tags %}
+
+  {% for post in site.posts %}
+    {% if page.url == post.url %}
+      {% assign current_post_index = forloop.index %}
+      {% assign next_post_index = forloop.index | minus:1 %}
+    {% endif %}
   {% endfor %}
+
+  {% comment %}
+    Find related posts older than this post first.
+  {% endcomment %}
+  {% assign count = 0 %}
+  {% for post in site.posts offset:current_post_index %}
+    {% for tag in post.tags %}
+      {% if page.tags contains tag %}
+        {% if count == 0 %}
+          <h3 class="related-post-title">Related Posts</h3>
+        {% endif %}
+        <div class="post ml2">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h4 class="post-title">{{ post.title }}</h4>
+            <p class="post-summary">{{ post.summary }}</p>
+          </a>
+        </div>
+        {% assign count = count | plus:1 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if count == 5 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+    If less than 5 related posts have been found, find related posts newer than this post.
+  {% endcomment %}
+  {% if count < 5 %}
+    {% for post in site.posts limit:next_post_index %}
+      {% for tag in post.tags %}
+        {% if page.tags contains tag %}
+          {% if count == 0 %}
+            <h3 class="related-post-title">Related Posts</h3>
+          {% endif %}
+          <div class="post ml2">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+              <h4 class="post-title">{{ post.title }}</h4>
+              <p class="post-summary">{{ post.summary }}</p>
+            </a>
+          </div>
+          {% assign count = count | plus:1 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if count == 5 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endif %}
+

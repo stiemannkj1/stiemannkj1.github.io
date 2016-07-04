@@ -18,7 +18,6 @@ bing_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    true
 ajaxify_contact_form: false
@@ -81,7 +80,6 @@ text:
   post:
     updated:        'Updated'
     minute_read:    'minute read'
-    related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
   contact:
