@@ -66,6 +66,8 @@ text:
   pagination:
     newer: 'Newer'
     older: 'Older'
+    next: 'Next'
+    previous: 'Previous'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
