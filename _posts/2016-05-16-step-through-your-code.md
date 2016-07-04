@@ -13,8 +13,8 @@ Take a look at this code:
 
 ```
 public interface ResourceHandler {
-	public Resource createResource(String resourceName,
-		String resourceLibraryName);
+    public Resource createResource(String resourceName,
+        String resourceLibraryName);
 }
 
 /* ... */
@@ -77,7 +77,10 @@ process? Developers must step through their code in the debugger. As Steve
 McConnell says in <a href="http://cc2e.com/" target="_blank">his fantastic book,
 *Code Complete* (p. 231)</a>:
 
-> ***Step through the code in the debugger*** Once the routine compiles, put it into the debugger and step through each line of code. Make sure each line executes as you expect it to. You can find many errors by following this simple practice.
+> ***Step through the code in the debugger*** Once the routine compiles, put it
+into the debugger and step through each line of code. Make sure each line
+executes as you expect it to. You can find many errors by following this simple
+practice.
 
 McConnell is completely correct. By interactively debugging every line, I've
 found many errors in my own code (including the bugs that inspired this post).
