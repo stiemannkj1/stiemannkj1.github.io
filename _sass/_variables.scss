@@ -32,21 +32,22 @@ $viewport-medium: 48em;
 $viewport-large: 64em;
 
 // Colors
-$blue: #0076df !default;
+$blue: #1F8BE4 !default;
 $red: #f95020 !default;
 $green: #00cf26 !default;
 $yellow: #efcc00 !default;
 $orange: #ffcc22 !default;
 $purple: #f92080 !default;
-$dark-blue: #00369f !default;
+$dark-blue: #3378DE !default;
 $green: #00ab37 !default;
 $dark-green: #009f06 !default;
 $light-pink: #ffdddd !default;
 $light-green: #ddffdd !default;
 $dark-gray: #333 !default;
 $mid-gray: #777 !default;
-$light-gray: #ccc !default;
+$light-gray: #ddd !default;
 $lighter-gray: #eee !default;
+$lightest-gray: #fdfdfd !default;
 $darken-1: rgba(#000,.0625) !default;
 $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
@@ -113,9 +114,9 @@ $hljs-change: $dark-blue;
 $hljs-chunk: $light-gray;
 
 // Footer
-$footer-border-top: thin solid #f3f3f3;
+$footer-border-top: thin solid $light-gray;
 $footer-padding: $space-3;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fafafa;
+$footer-bg-color: #f3f3f3;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
