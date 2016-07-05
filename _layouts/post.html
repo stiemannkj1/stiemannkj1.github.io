@@ -125,7 +125,7 @@ layout: default
 
 <div class="pagination clearfix mb1 mt4">
   <div class="left">
-    {% if page.previous %}
+    {% if page.previous and page.previous.url != '/about/' %}
       <a class="pagination-item" href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.text.pagination.previous }}: {{ page.previous.title | truncate:30 }}</a>
     {% else %}
       <span class="pagination-item disabled">{{ site.text.pagination.previous }}</span>
