@@ -124,19 +124,19 @@ layout: default
 {% endif %}
 
 <div class="pagination clearfix mb1 mt4">
-  <div class="left">
+  <div class="responsive-left">
     {% if page.previous and page.previous.url != '/about/' %}
-      <a class="pagination-item" href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.text.pagination.previous }}: {{ page.previous.title | truncate:30 }}</a>
+      <a class="pagination-item responsive-item" href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.text.pagination.previous }}: {{ page.previous.title | truncate:30 }}</a>
     {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.previous }}</span>
+      <span class="pagination-item disabled responsive-item">{{ site.text.pagination.previous }}</span>
     {% endif %}
   </div>
-  <div class="right">
+  <div class="responsive-right">
     {% if page.next %}
-      <a class="pagination-item" href="{{ page.next.url | prepend: site.baseurl }}">{{ site.text.pagination.next }}: {{ page.next.title | truncate:30 }}
+      <a class="pagination-item responsive-item" href="{{ page.next.url | prepend: site.baseurl }}">{{ site.text.pagination.next }}: {{ page.next.title | truncate:30 }}
 </a>
     {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.next }}</span>
+      <span class="pagination-item disabled responsive-item">{{ site.text.pagination.next }}</span>
     {% endif %}
   </div>
 </div>
