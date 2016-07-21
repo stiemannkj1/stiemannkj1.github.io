@@ -21,13 +21,13 @@ Since I have used `git` every day for the past three years, I will use `git` exa
 
 ### Part 1: Creating the Repository
 
-Since the purpose of version control is to track the history of a project, the first thing you should do is create some files or a program which you want to track. I have created an example program called <a target="_blank" href="https://github.com/stiemannkj1/example-git-project#get-day-program">`get-day`</a>, which outputs the day of the week for an input date string, to serve this purpose, so <a target="_blank" href="https://github.com/stiemannkj1/example-git-project/archive/part1.zip">download and unzip the example project</a>. Then open up a <a target="_blank" href="http://csg.sph.umich.edu/docs/hints/learnUNIXin10minutes.html">terminal on OSX/Linux</a> or <a target="_blank" href="http://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html">**`cmd.exe`** on Windows</a>. Next, navigate to the unzipped **`example-git-project`** (if you simply downloaded it and unzipped it, it will be under your **`Downloads`** folder):
+Since the purpose of version control is to track the history of a project, the first thing you should do is create some files or a program which you want to track. I have created an example program called <a target="_blank" href="https://github.com/stiemannkj1/example-git-project#get-day-program">`get-day`</a>, which outputs the day of the week for an input date string, to serve this purpose, so <a target="_blank" href="https://github.com/stiemannkj1/example-git-project/archive/part1.zip">download and unzip the example project</a>. Then open up a terminal on <a target="_blank" href="https://discussions.apple.com/thread/3223989?tstart=0">OSX</a> or <a target="_blank" href="http://askubuntu.com/questions/38162/what-is-a-terminal-and-how-do-i-open-and-use-it">Linux</a> or <a target="_blank" href="http://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/">**`cmd.exe`** on Windows</a>. Next, navigate to the unzipped **`example-git-project-part1`** (if you simply downloaded it and unzipped it, it will be under your **`Downloads`** folder):
 
 ```
 # You may need to navigate to the Downloads folder first:
-# `cd ~/Downloads` on OSX/Linux
-# `cd %HOMEPATH%/Downloads` on Windows
-cd example-git-dirctory
+# On OSX/Linux: `cd ~/Downloads`
+# On Windows: `cd %HOMEPATH%/Downloads`
+cd example-git-project-part1
 ```
 
 Now that you have some files you want to track, you can create a `git` repository in this
