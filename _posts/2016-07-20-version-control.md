@@ -11,13 +11,13 @@ comments_issue_number: 10
 
 ## Missing Links in Computer Science Curricula: Part 1.
 
-Version Control is an integral part of software development. Allowing developers to track changes to software, version control systems give programmers the power to collaborate, discover erroneous changes, and compare versions of software. When rightly used, version control (also called source control) empowers developers to make and share complex changes without fear of losing previous implementations. Developers who use revision control can always look back on and---if necessary---revert to previous versions of the software. Unfortunately, I received two-and-a-half years of Computer Science education without hearing about version control once.<sup>1</sup>
+Version Control is an integral part of software development. Allowing developers to track changes to software, version control systems give programmers the power to collaborate, discover erroneous changes, and compare versions of software. When rightly used, version control (also called source control) empowers developers to make and share complex changes without fear of losing previous implementations. Developers who use revision control can always look back on and---if necessary---revert to previous versions of the software. Unfortunately, I received two-and-a-half years of Computer Science education without hearing about version control once.[^1]
 
 <!--end-excerpt-->
 
 Source control management should be taught in CS 101 or 102. As soon as students have completed three or four solo programming projects in a non-toy language, they should learn the basics of revision control tools like <a target="_blank" href="https://en.wikipedia.org/wiki/Git_(software)">`git`</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Apache_Subversion">Subversion</a> and/or <a target="_blank" href="https://en.wikipedia.org/wiki/Mercurial">Mercurial</a>. Not only would learning revision control better prepare them for a career in Software Engineering, but it would also help them to manage school projects. Understanding `git` in school would make group projects much easier for students. If you are reading this as a student or recent graduate who was not taught or has not learned about revision control, allow me to provide a brief introduction and some helpful resources for further learning.
 
-Since I have used `git` every day for the past three years, I will use `git` examples to introduce you to version control. <a target="_blank" href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">`git` is also free</a> and <a target="_blank" href="https://www.google.com/trends/explore#q=git%2C%20%2Fm%2F08441_%2C%20%2Fm%2F012ct9&cmpt=q&tz=Etc%2FGMT%2B4">extremely popular</a>, so it has plenty of documentation and helpful Q&As on StackOverflow. However, the point of this tutorial is to teach you about the benefits and basic usage of version control systems. Although <a target="_blank" href="https://github.com/dotnetchris/Git-Hg-Rosetta-Stone/wiki">the commands and functionality may differ</a>, the overall lessons about version control will transfer to other programs like Mercurial or Subversion. My examples will be command line examples, but if you want to use a `git`-client like <a target="_blank" href="http://www.syntevo.com/smartgit/">SmartGit</a>,<sup>2</sup> I doubt that it would be difficult for you to follow along.<sup>3</sup>
+Since I have used `git` every day for the past three years, I will use `git` examples to introduce you to version control. <a target="_blank" href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">`git` is also free</a> and <a target="_blank" href="https://www.google.com/trends/explore#q=git%2C%20%2Fm%2F08441_%2C%20%2Fm%2F012ct9&cmpt=q&tz=Etc%2FGMT%2B4">extremely popular</a>, so it has plenty of documentation and helpful Q&As on StackOverflow. However, the point of this tutorial is to teach you about the benefits and basic usage of version control systems. Although <a target="_blank" href="https://github.com/dotnetchris/Git-Hg-Rosetta-Stone/wiki">the commands and functionality may differ</a>, the overall lessons about version control will transfer to other programs like Mercurial or Subversion. My examples will be command line examples, but if you want to use a `git`-client like <a target="_blank" href="http://www.syntevo.com/smartgit/">SmartGit</a>,[^2] I doubt that it would be difficult for you to follow along.[^3]
 
 ### Part 1: Creating the Repository
 
@@ -156,7 +156,7 @@ To see everything what you have accomplished, you can check the commit log:
 git log
 ```
 
-`git log` displays all the commit hashes<sup>4</sup> with their authors, dates, and messages. Here is the output of `git log` on my example repo:
+`git log` displays all the commit hashes[^4] with their authors, dates, and messages. Here is the output of `git log` on my example repo:
 
 ```
 commit b6c508e4379644731bc0210af309f1be3ce9ef47
@@ -176,7 +176,7 @@ As you can see, `git` has two commits worth of history: one for the initial `get
 
 ### Conclusion
 
-Congratulations! You made it to the end. Hopefully, my tutorial helped you get started with version control and `git`. Please let me know in the comments if anything was confusing or vague or especially helpful. Version control is extremely powerful, and these examples have barely demonstrated the simplest use cases. I highly recommend playing around with `git` (or your version control system of choice) in my example project<sup>5</sup> or your own projects. In my humble opinion, the best way to learn about version control is to use version control.
+Congratulations! You made it to the end. Hopefully, my tutorial helped you get started with version control and `git`. Please let me know in the comments if anything was confusing or vague or especially helpful. Version control is extremely powerful, and these examples have barely demonstrated the simplest use cases. I highly recommend playing around with `git` (or your version control system of choice) in my example project[^5] or your own projects. In my humble opinion, the best way to learn about version control is to use version control.
 
 ### Further learning:
 
@@ -207,7 +207,7 @@ Congratulations! You made it to the end. Hopefully, my tutorial helped you get s
 
 ---
 
-1. I did a quick survey of the CS curricula for three colleges and three universities. Five* of the six schools did not mention version control in their CS curricula. Sources:
+[^1]: I did a quick survey of the CS curricula for three colleges and three universities. Five* of the six schools did not mention version control in their CS curricula. Sources:
 
     - <a target="_blank" href="http://catalog.ccm.edu/credit/areasofstudy/computerscience/#courseinventory">County College of Morris (CCM) CS course descriptions</a>
     - Grove City College (GCC) <a target="_blank" href="http://www2.gcc.edu/registrar/advising/Status_Sheets/2015/Computer%20Science-2019.pdf">CS Schedule</a> and <a target="_blank" href="http://www.gcc.edu/Documents/Academics/Bulletin/2016-17/2016-17-Catalog.pdf">Catalogue</a>
@@ -223,9 +223,9 @@ Congratulations! You made it to the end. Hopefully, my tutorial helped you get s
 
     \* Four of those five schools were the schools I attended. Short version of my college career: started early college at CCM, spent two decent years at GCC but ran out of money, did three worthless classes at SSC, and finished at TESU.
 
-2. <a target="_blank" href="http://www.syntevo.com/blog/?p=4037">SmartGit is free for non-commercial use.</a>
-3. I actually learned `git` via SmartGit. Afterwards I moved to the command-line for various reasons, but SmartGit is more user-friendly and accessible. It is a great way to get started.
-4. A `git` commit hash is a unique Secure Hash Algorithm 1 (SHA-1) identifier for a commit.
-5. You can obtain the complete project like so:
+[^2]: <a target="_blank" href="http://www.syntevo.com/blog/?p=4037">SmartGit is free for non-commercial use.</a>
+[^3]: I actually learned `git` via SmartGit. Afterwards I moved to the command-line for various reasons, but SmartGit is more user-friendly and accessible. It is a great way to get started.
+[^4]: A `git` commit hash is a unique Secure Hash Algorithm 1 (SHA-1) identifier for a commit.
+[^5]: You can obtain the complete project like so:
 
         git clone https://github.com/stiemannkj1/example-git-project.git
