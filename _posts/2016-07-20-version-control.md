@@ -7,7 +7,7 @@ tags: [version-control, revision-control, git, computer-science, programming, so
 comments_issue_number: 10
 ---
 
-<img alt="Version Control the Missing Link" src="/images/version-control/version-control.png" />
+<img alt="Version Control: the Missing Link" src="/images/version-control/version-control.png" />
 
 ## Missing Links in Computer Science Curricula: Part 1.
 
