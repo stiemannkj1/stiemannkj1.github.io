@@ -7,8 +7,6 @@ excerpt_separator: <!--end-excerpt-->
 comments_issue_number: 7
 ---
 
-<!--end-excerpt-->
-
 Take a look at this code:
 
 ```
@@ -37,6 +35,8 @@ resource = resourceHandler.createResource(resourceLibrary, resourceName);
 
 Although the code runs correctly, it would be problematic for future maintenance
 because there are two subtle errors in it. So, what is wrong with this code?
+
+<!--end-excerpt-->
 
 First, the `resourceName` and `resourceLibrary` are swapped:
 
