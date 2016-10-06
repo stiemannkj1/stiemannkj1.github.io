@@ -6,6 +6,7 @@ description: "Kyle's (stiemannkj1's) Blog"
 baseurl:     ""
 url:         "http://stiemannkj1.github.io"
 date_format: "%b %-d, %Y"
+preview_image_url: "/images/kyle.png"
 
 # Google services
 google_verification:
