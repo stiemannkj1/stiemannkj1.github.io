@@ -18,7 +18,7 @@ Programmers are technical writers. Amazing programmers are amazing technical wri
 
 ### Code Comments
 
-Although programs should be as self-documenting as possible, developers often need to explain complex code in prose comments for clarity. Code comments should describe **what** the code is doing and/or **why** the code is doing it (this principle is also helpful for version control commit messages). However, comments should never explain **how** the code is doing something because the code already explicitly describes the program's execution.[^3] Occasionally, developers may also need to explain when the code will be executed or reference other pertinent documentation. Unless the project has a policy of commenting on all code, developers should use comments only when the "**what**" or "**why**" behind the code is unclear.[^4] In order to avoid writing comments explaining "**how**", developers should ensure that their comments describe the code at a high-level of abstraction. Here is an example of code with poor comments:
+Although programs should be as self-documenting as possible, developers often need to explain complex code in prose comments for clarity. Code comments should describe **what** the code is doing and/or **why** the code is doing it (this principle is also helpful for version control commit messages). However, comments should never explain **how** the code is doing something because the code already explicitly describes the program's execution.[^3] Occasionally, developers may also need to explain when the code will be executed or reference other pertinent documentation. Unless the project has a policy of commenting on all code,[^4] developers should use comments only when the "**what**" or "**why**" behind the code is unclear. In order to avoid writing comments explaining "**how**", developers should ensure that their comments describe the code at a high-level of abstraction. Here is an example of code with poor comments:
 
 ```
 // Create a list of config files.
@@ -48,7 +48,7 @@ When the code is enigmatic, comments can be extremely helpful, but comments are 
 
 ### Source Code
 
-Unlike all other technical documents, developers are guaranteed to write source code. Great developers have written hundreds of blogs and books on how to create excellent source code, and I will not attempt to repeat them here.[^5] However, I will mention that simplicity and code clarity should be every software engineer's highest priority. Often developers are tempted to prioritize other aspects of a program such as performance (or even cleverness), but performance should only be considered after the code is completely correct and clear. It is more straightforward to make understandable code perform well than to translate obscure, fast code into an intelligible program. If the code is coherent, it will be easier for developers to fix bugs, improve performance, and add features. Prioritize code clarity.
+Unlike all other technical documents, developers are guaranteed to write source code. Great developers have written hundreds of blogs and books on how to create excellent source code,[^5] and I will not attempt to repeat them here. However, I will mention that simplicity and code clarity should be every software engineer's highest priority. Often developers are tempted to prioritize other aspects of a program such as performance (or even cleverness), but performance should only be considered after the code is completely correct and clear. It is more straightforward to make understandable code perform well than to translate obscure, fast code into an intelligible program. If the code is coherent, it will be easier for developers to fix bugs, improve performance, and add features. Prioritize code clarity.
 
 ### Documentation
 
@@ -125,7 +125,7 @@ Thanks for reading! Was my advice helpful? Did I miss anything obvious? Do you h
 [^5]: Steve McConnel's *Code Complete* comes to mind.
 [^6]: > For every person who asks a question and gets an answer on Stack Overflow, hundreds or thousands of people will come read that conversation later. Even if the original asker got a decent answer and moved on, the question lives on and may continue to be useful for decades.
       >
-      > --- <a target="_blank" href="https://blog.stackoverflow.com/2011/01/the-wikipedia-of-long-tail-programming-questions/">Joel Spolsky</a>
+      > --- <a target="_blank" href="https://blog.stackoverflow.com/2011/01/the-wikipedia-of-long-tail-programming-questions/">Joel Spolsky</a> - <a target="_blank" href="https://blog.codinghorror.com/introducing-stackoverflow-com/">Co-Founder of StackOverflow</a>
 
 [^7]: This is essentially a summary of <a target="_blank" href="http://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx">Scott Hanselman's approach to email</a>.
 
